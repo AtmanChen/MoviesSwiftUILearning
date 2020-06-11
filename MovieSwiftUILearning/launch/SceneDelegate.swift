@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // Create the SwiftUI view that provides the window contents.
     
     // Use a UIHostingController as window root view controller.
-    
+    UITableView.appearance().separatorColor = .clear
     if let windowScene = scene as? UIWindowScene {
       let window = UIWindow(windowScene: windowScene)
       let controller = UIHostingController(rootView: StoreProvider(store: store) { HomeView() })
