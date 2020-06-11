@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       let controller = UIHostingController(rootView: StoreProvider(store: store) { HomeView() })
       
       window.rootViewController = controller
-      window.tintColor = UIColor.spotifyGreen
+      window.tintColor = UIColor.steamGold
       self.window = window
       window.makeKeyAndVisible()
     }
